@@ -23,7 +23,7 @@ export default function Home() {
     },
     {
       category: 'ACCOUNTS',
-      title: 'Account Information (PSD2) another testing change',
+      title: 'Account Information (PSD2) another testing changrereeeeeeeeeee',
       description: 'Retrieve information from an ABN AMRO account, such as: transactions, balance, and name of the account holder.',
       links: [
         {
