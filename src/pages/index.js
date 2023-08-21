@@ -37,7 +37,7 @@ export default function Home() {
       ]
     },
     {
-      category: 'PAYMENTS',
+      category: 'ACCOUNTS',
       title: 'Confirmation Availability Funds (PSD2) Testing the change',
       description: 'Retrieve confirmation on the availability of funds from an ABN AMRO account. ',
       links: [
