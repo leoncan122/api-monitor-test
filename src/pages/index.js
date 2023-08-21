@@ -8,7 +8,7 @@ export default function Home() {
   const info = [
     {
       category: 'PAYMENTS',
-      title: 'Payment Initiation (PSD2)',
+      title: 'Payment Initiation (PSD2) TEsting the change',
       description: 'Initiate payments and retrieve information on the status of the transaction.',
       links: [
         {
@@ -23,7 +23,7 @@ export default function Home() {
     },
     {
       category: 'ACCOUNTS',
-      title: 'Account Information (PSD2)',
+      title: 'Account Information (PSD2) another testing change',
       description: 'Retrieve information from an ABN AMRO account, such as: transactions, balance, and name of the account holder.',
       links: [
         {
