@@ -8,7 +8,7 @@ export default function Home() {
   const info = [
     {
       category: 'PAYMENTS',
-      title: 'Paymenttt Initiation (PSD2) Testing the chaneeeeeeeege',
+      title: 'Payment Initiation (PSD2) Testing the chaneeeeeeeege',
       description: 'Initiate payments and retrieve information on the status of the transaction.',
       links: [
         {
