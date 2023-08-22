@@ -95,6 +95,21 @@ export default function Home() {
           link: 'https://developer.abnamro.com/api-products/confirmation-availability-funds-psd2/reference-documentation'
         }
       ]
+    },
+    {
+      category: 'PAYMENTS',
+      title: 'n8n TEST',
+      description: 'Retrieve confirmation on the availability of funds from an ABN AMRO account. ',
+      links: [
+        {
+          title: 'Overview',
+          link: 'https://developer.abnamro.com/api-products/confirmation-availability-funds-psd2api'
+        },
+        {
+          title: 'Documentation',
+          link: 'https://developer.abnamro.com/api-products/confirmation-availability-funds-psd2/reference-documentation'
+        }
+      ]
     }
   ]
   return (
