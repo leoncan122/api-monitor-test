@@ -68,7 +68,22 @@ export default function Home() {
     },
     {
       category: 'ACCOUNTS',
-      title: 'Confirmation Availability Funds (PSD2) ',
+      title: 'Confirmation Availability Funds (PSD2) test ',
+      description: 'Retrieve confirmation on the availability of funds from an ABN AMRO account. ',
+      links: [
+        {
+          title: 'Overview',
+          link: 'https://developer.abnamro.com/api-products/'
+        },
+        {
+          title: 'Documentation',
+          link: 'https://developer.abnamro.com/api-products/confirmation-availability-funds-psd2/reference-documentation'
+        }
+      ]
+    },
+    {
+      category: 'PAYMENTS',
+      title: 'n8n TEST',
       description: 'Retrieve confirmation on the availability of funds from an ABN AMRO account. ',
       links: [
         {
