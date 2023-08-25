@@ -111,21 +111,7 @@ export default function Home() {
         }
       ]
     },
-    {
-      category: 'PAYMENTS',
-      title: 'Confirmation Availability Funds (PSD2) ',
-      description: 'Retrieve confirmation on the availability of funds from an ABN AMRO account. ',
-      links: [
-        {
-          title: 'Overview',
-          link: 'https://developer.abnamro.com/api-products/confirmation-availability-funds-psd2api'
-        },
-        {
-          title: 'Documentation',
-          link: 'https://developer.abnamro.com/api-products/confirmation-availability-funds-psd2/reference-documentation'
-        }
-      ]
-    },
+    
   ]
   return (
     <main
