@@ -150,11 +150,11 @@ export default function Home() {
         {info && info.map((item, index) => (
           <div key={index} className='flex flex-col justify-between rounded shadow border border-grey-900 py-7 px-5'>
             <div className='grid gap-6'>
-              <h4 className='text-green-700 font-medium'>{item?.category}</h4>
-              <h2 className='text-4xl font-medium'>{item?.title}</h2>
-              <p className=''>{item?.description}</p>
+              <h4 className='card-item-category text-green-700 font-medium'>{item?.category}</h4>
+              <h2 className='card-title text-4xl font-medium'>{item?.title}</h2>
+              <p className='card-description'>{item?.description}</p>
             </div>
-            <ul className='mt-10'>
+            <ul className='card-links mt-10'>
               {item?.links?.map((link, index) => (
                 <Link href={link?.link}>
                 <li key={index} className='text-gray-700'>
