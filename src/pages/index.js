@@ -146,7 +146,7 @@ export default function Home() {
     <main
       className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
     >
-      <section className='grid grid-cols-3 gap-10'>
+      <section className='card-container grid grid-cols-3 gap-10'>
         {info && info.map((item, index) => (
           <div key={index} className='flex flex-col justify-between rounded shadow border border-grey-900 py-7 px-5'>
             <div className='grid gap-6'>
