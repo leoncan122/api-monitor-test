@@ -148,7 +148,7 @@ export default function Home() {
     >
       <section className='card-container grid grid-cols-3 gap-10'>
         {info && info.map((item, index) => (
-          <div key={index} className='flex flex-col justify-between rounded shadow border border-grey-900 py-7 px-5'>
+          <div key={index} className='card-item flex flex-col justify-between rounded shadow border border-grey-900 py-7 px-5'>
             <div className='grid gap-6'>
               <h4 className='card-item-category text-green-700 font-medium'>{item?.category}</h4>
               <h2 className='card-title text-4xl font-medium'>{item?.title}</h2>
