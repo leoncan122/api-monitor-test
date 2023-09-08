@@ -22,7 +22,7 @@ export default function Home() {
       ]
     },
     {
-      category: 'ACCOUNTS',
+      category: 'PAYMENTS',
       title: 'Account Information (PSD2) another testing ',
       description: 'Retrieve information from an ABN AMRO account, such as: transactions, balance, and name of the account holder.',
       links: [
@@ -37,7 +37,7 @@ export default function Home() {
       ]
     },
     {
-      category: 'ACCOUNTS',
+      category: 'PAYMENTS',
       title: 'Confirmation Availability Funds (PSD2) Testing the changeeeeee',
       description: 'Retrieve confirmation on the availability of funds from an ABN AMRO account. ',
       links: [
