@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   const info = [
     {
-      category: 'PAYMENTS',
+      category: 'INSURANCE',
       title: 'Payment Initiation (PSD2) Testing the chaneeeeeeeege',
       description: 'Initiate payments and retrieve information on the status of the transaction.',
       links: [
@@ -52,7 +52,7 @@ export default function Home() {
       ]
     },
     {
-      category: 'ACCOUNTS',
+      category: 'BANKING',
       title: 'Confirmation Availability Funds (PSD2) ',
       description: 'Retrieve confirmation on the availability of funds from an ABN AMRO account. ',
       links: [
@@ -83,7 +83,7 @@ export default function Home() {
     },
     {
       category: 'PAYMENTS',
-      title: 'n8n TEST',
+      title: 'n8n',
       description: 'Retrieve confirmation on the availability of funds from an ABN AMRO account. ',
       links: [
         {
@@ -129,6 +129,21 @@ export default function Home() {
     {
       category: '30 de agosto',
       title: 'TEST',
+      description: 'Retrieve confirmation on the availability of funds from an ABN AMRO account. ',
+      links: [
+        {
+          title: 'Overview',
+          link: 'https://developer.abnamro.com/api-products/confirmation-availability-funds-psd2api'
+        },
+        {
+          title: 'Documentation',
+          link: 'https://developer.abnamro.com/api-products/confirmation-availability-funds-psd2/reference-documentation'
+        }
+      ]
+    },
+    {
+      category: '12 de Septiembre',
+      title: 'PAYMENTS',
       description: 'Retrieve confirmation on the availability of funds from an ABN AMRO account. ',
       links: [
         {
