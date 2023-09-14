@@ -97,9 +97,9 @@ export default function Home() {
       ]
     },
     {
-      category: 'PAYMENTS',
+      category: 'ACCOUNTS',
       title: 'n8n TEST',
-      description: 'Retrieve confirmation on the availability of funds from an ABN AMRO account. ',
+      description: 'Just testing sken io',
       links: [
         {
           title: 'Overview',
@@ -112,7 +112,7 @@ export default function Home() {
       ]
     },
     {
-      category: 'PAYMENTS',
+      category: 'INSURANCE',
       title: 'n8n TEST',
       description: 'Retrieve confirmation on the availability of funds from an ABN AMRO account. ',
       links: [
@@ -142,7 +142,7 @@ export default function Home() {
       ]
     },
     {
-      category: '12 de Septiembre',
+      category: '12 de Septiembre Testing changes',
       title: 'PAYMENTS',
       description: 'Retrieve confirmation on the availability of funds from an ABN AMRO account. ',
       links: [
